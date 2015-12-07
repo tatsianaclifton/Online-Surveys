@@ -1,0 +1,142 @@
+body {
+    font-family: Courier New;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width:55%;
+    margin-right: auto;
+    margin-left: auto;
+    color:#333;
+    background-color: #F9F8F6;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cont {
+    width: 65%;
+    float: left;
+}
+
+.nav {
+    font-size: 16px;
+    float: right;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.button {
+    font: bold 16px Courier New;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 3px 7px 3px 7px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+
+.code {
+    display: block;
+    padding: 9px;
+    margin: 0px 0px 10px;
+    font-size: 13px;
+    line-height: 1.42857;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333;
+    background-color: #F5F5F5;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+}
+
+code {
+    padding: 2px 2px;
+    font-size: 89%;
+    color: #C7254E;
+    background-color: #F9F2F4;
+    border-radius: 4px;
+}
+
+pre code{
+    padding: 0px;
+    font-size: inherit;
+    color: #333;
+    white-space: pre-wrap;
+}
+
+pre {
+    display: block;
+    padding: 9px;
+    margin: 0px 0px 10px;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #F5F5F5;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+}
+
+
+table, td{
+    border: 1px solid black;
+}
+
+caption{
+    font-size: 30px;
+}
+
+legend{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+theader{
+    font-weight: bold;
+}
+
+tbody th{
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+tbody tr{
+    background-color: #F5F5F5;
+}
+
+ul{
+    list-style: circle;
+}
+
+.outer-content{
+    background-color: pink; 
+    left: 0;
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    width: 75%;
+}
+
+.inner-content{
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 75%;
+}
